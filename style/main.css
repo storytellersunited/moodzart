@@ -4,8 +4,26 @@ html {
 
 body {
 	color: #fff;
-	background: #611;
+	background: #777;
 }
+
+
+body.mood0 {
+		background: #616;
+}
+body.mood1 {
+		background: #116;
+}
+body.mood2 {
+		background: #161;
+}
+body.mood3 {
+		background: #611;
+}
+
+
+
+
 a {
 	color: #fff;
 }
@@ -87,7 +105,7 @@ a {
     -webkit-appearance: none;
     width: 100%;
     
-    margin: 0 0 36px 0;
+    margin: 0 0 1em 0;
 }
 #filter input[type=range]::-webkit-slider-runnable-track {
     height: 2px;
@@ -97,11 +115,11 @@ a {
 #filter input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
     border: none;
-    height: 32px;
-    width: 32px;
+    height: 2em;
+    width: 2em;
     border-radius: 50%;
     background: #fff;
-    margin-top: -16px;
+    margin-top: -1em;
     cursor: hand;
 }
 #filter input[type=range]:focus {
