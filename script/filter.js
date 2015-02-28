@@ -5,6 +5,7 @@ function getMood(){
 	document.querySelector('#range-mood').addEventListener('change', function(e){
 		mood = this.value;
 		setMood();
+		repopulateData(mood);
 	});
 }
 
