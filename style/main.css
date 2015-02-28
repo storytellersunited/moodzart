@@ -3,22 +3,22 @@ html {
 }
 
 body {
-	color: #fff;
-	background: #777;
+	color: #111;
+	background: #fff;
 }
 
 
-body.mood0 {
-		background: #616;
+body.mood0 #stories li {
+		background: #faf;
 }
-body.mood1 {
-		background: #116;
+body.mood1 #stories li {
+		background: #aaf;
 }
-body.mood2 {
-		background: #161;
+body.mood2 #stories li {
+		background: #afa;
 }
-body.mood3 {
-		background: #611;
+body.mood3 #stories li {
+		background: #faa;
 }
 
 
