@@ -148,3 +148,21 @@ a {
 .inactive {
 	display: none;
 }
+
+
+
+
+#credits a {
+	display: inline-block;
+	width: 10em;
+}
+#credits figure {
+	width: 100%;
+}
+#credits figure img {
+	width: 100%;
+	height: auto;
+}
+
+
+
