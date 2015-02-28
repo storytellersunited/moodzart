@@ -4,8 +4,26 @@ html {
 
 body {
 	color: #fff;
-	background: #611;
+	background: #777;
 }
+
+
+body.mood0 {
+		background: #616;
+}
+body.mood1 {
+		background: #116;
+}
+body.mood2 {
+		background: #161;
+}
+body.mood3 {
+		background: #611;
+}
+
+
+
+
 a {
 	color: #fff;
 }
