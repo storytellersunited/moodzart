@@ -1,5 +1,5 @@
 html {
-	font: 62.5%/1.5 normal normal 'Neucha', sans-serif;
+	font: 62.5%/1.5 normal normal 'Nixie One', cursive;
 }
 
 body {
@@ -9,6 +9,17 @@ body {
 	padding: 0;
 	margin: 0;
 }
+
+
+.js #view {
+  -webkit-transition: opacity .05s ease-in;
+  transition: opacity .05s ease-in;
+}
+
+.js #view { opacity: 0 }
+
+.js.loaded.wf-active #view { opacity: 1 }
+
 
 
 body.mood0 #stories li {
@@ -64,7 +75,29 @@ a {
   border: solid #fe0;
 
 
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
 }
+
+body.mood0 #filter {
+		background: #faf;
+		border-color: #faf;
+}
+body.mood1 #filter {
+		background: #aaf;
+		border-color: #aaf;
+}
+body.mood2 #filter {
+		background: #afa;
+		border-color: #afa;
+}
+body.mood3 #filter {
+		background: #faa;
+		border-color: #faa;
+}
+
+
+
 
 #filter fieldset {
 	border: 0;
@@ -168,9 +201,9 @@ a {
 #stories li {
 	margin: 0 0 2% 0;
 
-	padding: 4%;
+	padding: 2% 4%;
 	
-	background: rgba(0,0,0,0.2);
+	font-size: 1.5em;
 }
 
 
