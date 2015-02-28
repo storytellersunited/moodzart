@@ -3,22 +3,22 @@ html {
 }
 
 body {
-	color: #fff;
-	background: #777;
+	color: #111;
+	background: #fff;
 }
 
 
-body.mood0 {
-		background: #616;
+body.mood0 #stories li {
+		background: #faf;
 }
-body.mood1 {
-		background: #116;
+body.mood1 #stories li {
+		background: #aaf;
 }
-body.mood2 {
-		background: #161;
+body.mood2 #stories li {
+		background: #afa;
 }
-body.mood3 {
-		background: #611;
+body.mood3 #stories li {
+		background: #faa;
 }
 
 
@@ -31,27 +31,49 @@ a {
 #view {
 	padding: 2% 4%;
 
+	vertical-align: top;
 }
 
 #intro {
-	font-size: 2em;
+
+	float: left;	
+	width: 36em;
+	
+	
+/* 	font-size: 2em; */
 	
 	margin: 0 0 10% 0;
 }
 
 #filter {
-	margin: 0 0 5% 0;
+	display: inline-block;
+
+	width: 16em;
+	height: 16em;
+
+
+	margin: 5% 0 5% 10%;
 	
 	padding: 4%;
-	background: rgba(0,0,0,0.2);
+	background: #fe0;
+
+	
+  border-radius: 50%;
+  border: solid #fe0;
+
+
 }
 
 #filter fieldset {
 	border: 0;
 	
 	padding: 0;
+	
 }
+
 #filter legend {
+	display: none;
+	
 	padding: 0;
 
 	font-size: 1.5em;
@@ -66,7 +88,8 @@ a {
 #filter label {
   display: block;
   	
-	margin: 0 0 2em 0;
+  padding: 0 2em;
+	margin: 2em 0 5em 0;
 	
 	
 }
@@ -90,7 +113,7 @@ a {
 	-webkit-transform: rotate(90deg);
 	transform: rotate(90deg);
 
-	font-size: 2em;
+	font-size: 3em;
 }
 
 #filter label:after {
@@ -111,6 +134,7 @@ a {
     height: 2px;
     border: none;
     border-radius: 0;
+    background: #000;
 }
 #filter input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
@@ -118,7 +142,7 @@ a {
     height: 2em;
     width: 2em;
     border-radius: 50%;
-    background: #fff;
+    background: #000;
     margin-top: -1em;
     cursor: hand;
 }
@@ -128,6 +152,9 @@ a {
 
 
 #stories {
+	clear: both;
+	
+	
 }
 #stories ul {
 	list-style: none;
