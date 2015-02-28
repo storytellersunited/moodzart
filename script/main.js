@@ -5,7 +5,7 @@ $( document ).ready(function() {
 WebFont.load({
 	google: {
 		families: [
-				"Open+Sans::latin"
+				"Nixie+One::latin"
 			]
 		}
 	});
@@ -18,3 +18,9 @@ getData();
 
 
 
+$( window ).load(function() {
+
+var d = document.documentElement;
+d.className = d.className + " loaded";
+
+});
