@@ -12,7 +12,6 @@ Tabletop.init( { key: public_spreadsheet_url,
 }
 
 function showInfo(data, tabletop) {
-alert("Successfully processed!")
 console.log(data);
 }
 
