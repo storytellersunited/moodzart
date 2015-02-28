@@ -1,11 +1,7 @@
-window.onload = function() { 
-	init();
-	scrollStory();
-};
 
 var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1Co_byTntKETyuML9aZzfvUiX7HoPQA-AiC_U2Vm6380/pubhtml';
 
-function init() {
+function getData() {
 Tabletop.init( { key: public_spreadsheet_url,
                  callback: showInfo,
                  simpleSheet: true } )

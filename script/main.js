@@ -12,6 +12,8 @@ WebFont.load({
 
 getMood();
 
+getData();
+
 scrollStory();
 
 
