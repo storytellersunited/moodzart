@@ -10,6 +10,7 @@ function getMood(){
 
 function setMood(){
 		document.getElementsByTagName('body')[0].setAttribute('class', 'mood'+mood);
+
 }
 
 setMood();
