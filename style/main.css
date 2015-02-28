@@ -53,6 +53,11 @@ a {
 	color: #fff;
 }
 
+p {
+	max-width: 50em;
+}
+
+
 #view {
 
 	vertical-align: top;
