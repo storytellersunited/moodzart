@@ -1,0 +1,44 @@
+html {
+	font: 62.5%/1.5 normal normal "Georgia", serif;
+}
+
+body {
+	color: #fff;
+	background: #611;
+}
+a {
+	color: #fff;
+}
+
+#view {
+	padding: 2% 4%;
+
+}
+
+#intro {
+	font-size: 2em;
+	
+	margin: 0 0 10% 0;
+}
+
+#filter {
+	
+	padding: 4%;
+	background: rgba(0,0,0,0.2);
+	
+}
+#filter type[range] {
+	display: inline-block;
+	width: 100%;
+}
+
+
+#stories {
+	padding: 4%;
+}
+#stories ul {
+	list-style: none;
+	padding: 0;
+}
+
+
