@@ -5,6 +5,9 @@ html {
 body {
 	color: #111;
 	background: #fff;
+	
+	padding: 0;
+	margin: 0;
 }
 
 
@@ -29,7 +32,6 @@ a {
 }
 
 #view {
-	padding: 2% 4%;
 
 	vertical-align: top;
 }
@@ -154,6 +156,7 @@ a {
 #stories {
 	clear: both;
 	
+	margin: 0 0 15% 0;
 	
 }
 #stories ul {
@@ -178,17 +181,50 @@ a {
 
 
 
+#footer {
+	color: #fff;
+	background: #333;
 
+	padding: 2% 4%;
+}
+
+
+
+#about {
+	margin: 0 0 5% 0;
+}
+
+#abouth3 {
+	font-size: 1.5em;
+}
+#about p {
+	font-size: 1.5em;
+}
+
+#credits aside {
+	
+}
 #credits a {
 	display: inline-block;
 	width: 10em;
+	
+	text-decoration: none;
+	
+	width: 25%;
+	
+	margin: 0 5% 0 0;
 }
 #credits figure {
 	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 #credits figure img {
 	width: 100%;
 	height: auto;
+}
+#credits ficgaption {
+	font-size: 1em;
 }
 
 
